@@ -1,0 +1,6 @@
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\Int.Parse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\Int.Parse.pdb
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\nunit.framework.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\nunit.framework.xml
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\Int.Parse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\Int.Parse.pdb

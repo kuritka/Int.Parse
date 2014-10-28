@@ -1,0 +1,5 @@
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Release\StringParse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Release\StringParse.pdb
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Release\StringParse.csprojResolveAssemblyReference.cache
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Release\StringParse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Release\StringParse.pdb

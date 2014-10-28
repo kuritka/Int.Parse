@@ -1,0 +1,12 @@
+c:\users\michal\documents\visual studio 2012\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\StringParse.dll
+c:\users\michal\documents\visual studio 2012\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\StringParse.pdb
+c:\users\michal\documents\visual studio 2012\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2012\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.dll
+c:\users\michal\documents\visual studio 2012\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.pdb
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\StringParse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\StringParse.pdb
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.csprojResolveAssemblyReference.cache
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\obj\Debug\StringParse.pdb
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\nunit.framework.dll
+C:\Temp\Projects\PripravaNaSkype\StringParse\StringParse\bin\Debug\nunit.framework.xml
