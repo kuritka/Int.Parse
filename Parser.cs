@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
+
 
 namespace Int.Parse
 {
@@ -18,8 +18,9 @@ namespace Int.Parse
 
         public int Parse(string number, CultureInfo cultureInfo)
         {
+           
             var decimalCounter = 1;
-            var sum = 0;
+            var result = 0;
 
             if (string.IsNullOrEmpty(number))
             {
@@ -30,34 +31,30 @@ namespace Int.Parse
 
             number = ProcessGroupSeparators(number, cultureInfo);       
 
-            IEnumerable<char> numberReversed;
+           
             if (number.StartsWith("-"))
             {
                 decimalCounter *= -1;
-                numberReversed = number.Skip(1).Reverse();
+                number = number.Substring(1);
             }
             else if (number.StartsWith("+"))
             {
-                numberReversed = number.Skip(1).Reverse();
-            }
-            else
-            {
-                numberReversed = number.Reverse();
+                number = number.Substring(1);
             }
 
-            foreach (var charValue in numberReversed.Select(c => c - 48))
+
+            foreach (var charValue in number.Select(c => c - 48))
             {
                 if (charValue < 0 || charValue > 9)
                 {
-                    throw new ArgumentException("Argument contains invalid charters");
+                    throw new ArgumentException("Argument contains invalid characters");
                 }
                 checked
                 {
-                    sum += charValue * decimalCounter;
-                    decimalCounter = decimalCounter * 10;
+                    result = 10*result + charValue;
                 }
-            }
-            return sum;
+            }            
+            return result * decimalCounter;
         }
 
         private static string ProcessDecimalSeparator(string number, CultureInfo cultureInfo)
